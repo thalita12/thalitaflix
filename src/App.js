@@ -1,13 +1,13 @@
 import React from 'react';
-import Menu from './components/menu'
+import Menu from './components/menu';
+import Footer from './components/footer';
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Menu />
-
-      
-    </div>
+      <>
+        <Menu />
+        <Footer />
+      </>
   );
 }
 
